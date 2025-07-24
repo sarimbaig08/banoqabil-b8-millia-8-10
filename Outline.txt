@@ -1,0 +1,23 @@
+-> Brainstroming related to Web development and html, css, js
+-> Introduction to React js
+-> Seting up a react project
+-> Project flow 
+-> Components
+-> Adding css to html
+-> UseState Hook
+-> Arrow functions & Onclick
+-> Ternary Opr, Conditional Rendering
+-> Responding to envent:
+-> Onclick
+-> Onchange
+-> Props, Parent child data and function passing
+-> Inline conditional styling
+-> Array of objects
+-> Map
+-> Dynamic product cards mapping
+-> Toggle condition, Dynamic mapping
+
+
+
+--Spread operator
+--Find
