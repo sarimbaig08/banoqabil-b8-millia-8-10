@@ -18,6 +18,25 @@
 -> Toggle condition, Dynamic mapping
 
 
-
+--Axios
+--UseEffect
+--Props drilling
 --Spread operator
 --Find
+
+--useNavigate
+--Proj
+
+
+--React component lifecycle: mounting, updating, unmounting
+--Forms handling
+--Context Api
+--Ui libraries
+--Routing
+--Tailwind Css
+--
+
+    fetch('https://fakestoreapi.com/products')
+      .then(res => res.json())
+      .then(data =>  console.log(data));
+
