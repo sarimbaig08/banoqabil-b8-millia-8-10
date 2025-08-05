@@ -29,10 +29,13 @@ function App() {
     <Routes>
       <Route index element={<Signup/>} />
       <Route path='login'  element={<Login />}/>
+      <Route path="home" element={<Home />} />
 
       <Route path='dashboard' element={<Dashboard/>} >
-        <Route index element={<Home />} />
         <Route path='login'  element={<Login />}/>
+        <Route path='home' element={<Home />} />
+        <Route path='signup' element={<Signup />} />
+
       </Route>
 
     </Routes>

@@ -16,7 +16,12 @@
 -> Map
 -> Dynamic product cards mapping
 -> Toggle condition, Dynamic mapping
+-> UseEffect
+-> Routing: routes, nested routes, outlets
+-> 3 types of navigation: Link, Navlink, UseNavigate hook
 
+
+-----> dynamic routes and params or location
 
 --Axios
 --UseEffect
@@ -32,7 +37,7 @@
 --Forms handling
 --Context Api
 --Ui libraries
---Routing
+--Routing: dynamic routes
 --Tailwind Css
 --
 
