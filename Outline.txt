@@ -19,7 +19,8 @@
 -> UseEffect
 -> Routing: routes, nested routes, outlets
 -> 3 types of navigation: Link, Navlink, UseNavigate hook
-
+-> Dynamic Routes, Use Params
+-> Optional Chaining ?
 
 -----> dynamic routes and params or location
 
