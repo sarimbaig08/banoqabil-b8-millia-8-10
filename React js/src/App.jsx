@@ -10,7 +10,6 @@ import Projects from "./components/Projects";
 import Users from "./components/Users";
 import Settings from "./components/Settings";
 import { Admin, Students, Teacher } from "./components/Home/Users";
-import StudentCard from "./components/StudentCard";
 
 function App() {
   return (
@@ -36,12 +35,10 @@ function App() {
         <Route path="/login" element={<Login />} />
 
         <Route path="/dashboard" element={<Dashboard />}>
-          <Route path="/dashboard" element={<Home />}>
-            <Route path="admin" element={<Admin />} />
-            <Route path="teacher" element={<Teacher />} />
-            <Route path="student" element={<Students />}>
-              <Route path="studentDetails/:id" element={<StudentCard />} />
-            </Route>
+          <Route path="home" element={<Home />}>
+            <Route path="admin" element={<Admin/>}/>
+            <Route path="teacher" element={<Teacher/>}/>
+            <Route path="student" element={<Students/>}/>
           </Route>
           <Route path="analytics" element={<Analytics />} />
           <Route path="projects" element={<Projects />} />
@@ -49,15 +46,7 @@ function App() {
           <Route path="settings" element={<Settings />} />
         </Route>
 
-        <Route
-          path="/*"
-          element={
-            <img
-              src="https://blog.openreplay.com/images/creating-a-custom-404-error-page/images/image2.png"
-              className="img404"
-            />
-          }
-        />
+        <Route path="/*" element={<img src="https://blog.openreplay.com/images/creating-a-custom-404-error-page/images/image2.png" className="img404"/>}/>
       </Routes>
     </>
   );

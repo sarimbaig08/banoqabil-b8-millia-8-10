@@ -21,26 +21,26 @@
 -> 3 types of navigation: Link, Navlink, UseNavigate hook
 -> Dynamic Routes, Use Params
 -> Optional Chaining ?
+-> Props Drilling
+-> How to solve props drilling --> Usecontext api
 
------> dynamic routes and params or location
+--location
+--Axios 
+	const response = await axios.get(
+        `https://fakestoreapi.com/products/${id}`
+     	 );
 
---Axios
---UseEffect
---Props drilling
+--Optional Route /home/:id?/:name?/list?
 --Spread operator
 --Find
-
---useNavigate
 --Proj
 
 
 --React component lifecycle: mounting, updating, unmounting
 --Forms handling
---Context Api
 --Ui libraries
 --Routing: dynamic routes
 --Tailwind Css
---
 
     fetch('https://fakestoreapi.com/products')
       .then(res => res.json())

@@ -10,7 +10,8 @@ const StudentCard = () => {
   useEffect(() => {
     fetch(`https://fakestoreapi.com/users/${params.id}`)
       .then((res) => res.json())
-      .then((data) => setUser(data));
+      .then((data) => setUser(data))
+      .catch((err) => console.log("error", err));
   }, [params.id]);
 
   return (

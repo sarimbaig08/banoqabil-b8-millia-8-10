@@ -1,0 +1,22 @@
+.homeToolbar{
+        box-shadow: 0 4px 8px 0 lightgrey;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.homeToolbar ul{
+    display: flex;
+    gap: 10px;
+    list-style-type: none;
+}
+.homeContentArea{
+    margin-top: 20px;
+    box-shadow: 0 4px 8px 0 lightgrey;
+    border-radius: 5px;
+    padding: 10px;
+    height: 50vh;
+}
+
+a.active {
+  color: red;
+}

@@ -10,7 +10,7 @@ function LeftSidebar() {
         </div>
         <ul class="sidebar-menu">
           <li>
-            <Link to="home">🏠 Dashboard</Link>
+            <Link to="/dashboard">🏠 Dashboard</Link>
           </li>
           <li>
             <Link to="analytics">📊 Analytics</Link>
