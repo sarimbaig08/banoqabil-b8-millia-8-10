@@ -23,17 +23,28 @@
 -> Optional Chaining ?
 -> Props Drilling
 -> How to solve props drilling --> Usecontext api
-
---location
---Axios 
+-> Axios 
 	const response = await axios.get(
         `https://fakestoreapi.com/products/${id}`
      	 );
+-> UseRef
+-> Callback function ( child communication with parent)
+-> Props Destructuring 
+-> Children Prop
+-> Redux
+
+
+
+
+--Redux
+--location
+
 
 --Optional Route /home/:id?/:name?/list?
 --Spread operator
 --Find
 --Proj
+
 
 
 --React component lifecycle: mounting, updating, unmounting
@@ -45,4 +56,23 @@
     fetch('https://fakestoreapi.com/products')
       .then(res => res.json())
       .then(data =>  console.log(data));
+
+
+Or combine rest props:
+
+function Input({ label, ...rest }) {
+  return (
+    <div>
+      <label>{label}</label>
+      <input {...rest} />
+    </div>
+  );
+}
+
+rop Spreading
+You can forward all props from one component to another:
+
+function Button(props) {
+  return <button {...props} />; // passes all props (like onClick, className, etc.)
+}
 
